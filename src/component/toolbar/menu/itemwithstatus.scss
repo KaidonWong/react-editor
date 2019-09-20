@@ -1,0 +1,9 @@
+.toolbar-menu-li {
+    float: left;
+    padding: 0.5em;
+    color: #666;
+    &.active,&:hover {
+        color: #000;
+        background-color: #eee;
+    }
+}

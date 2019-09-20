@@ -1,0 +1,20 @@
+.dropdown-react {
+    /*Chrome同Firefox与IE里面的右侧三角显示的样式不同*/
+    border: solid 1px #e0e0e0;
+    /*将默认的select选择框样式清除*/
+    appearance: none;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 5px;
+    color: #333;
+    option {
+        border: none;
+        outline: none;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        padding: 5px;
+        color: #333;
+    }
+}

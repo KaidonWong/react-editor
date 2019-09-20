@@ -1,0 +1,29 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent; //自定义边框
+    background-color: transparent;
+    outline: none; //消除默认点击蓝色边框效果
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
