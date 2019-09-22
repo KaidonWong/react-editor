@@ -1,0 +1,35 @@
+.color-selector {
+    position: relative;
+    .triangle {
+        position: absolute;
+        top: -19px;
+        left: 10px;
+        border: 10px solid transparent;
+        border-bottom-color: #fff;
+    }
+    .triangle-shadow {
+        position: absolute;
+        top: -21px;
+        left: 9px;
+        border: 11px solid transparent;
+        border-bottom-color: #aaa;
+    }
+    .panel {
+        border: 1px solid #bbb;
+        border-radius: 3px;
+        padding: 5px;
+        width: 212px;
+        background-color: #fff;
+        button {
+            float: left;
+            width: 25px;
+            height: 25px;
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: 0 0 1px #ddd;
+            }
+        }
+
+    }
+
+}

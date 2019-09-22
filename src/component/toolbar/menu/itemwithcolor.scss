@@ -1,0 +1,17 @@
+.item-with-color {
+    position: relative;
+    &>button {
+        padding: 0.5em;
+        color: #666;
+        &.active,&:hover {
+            color: #000;
+            background-color: #eee;
+        }
+    }
+
+    .color-selector-container {
+        position: absolute;
+        top: 40px;
+        left: -5px;
+    }
+}

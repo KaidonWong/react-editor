@@ -12,11 +12,11 @@ const IconMap = {
     indent: "iconindent5",
     outdent: "iconoutdent",
     //下拉列表，没有图标
-    fontName: "iconfont",
-    fontSize: "iconsize",
+    fontname: "iconfont",
+    fontsize: "iconsize",
 
-    foreColor: "iconzitiyanse",
-    backColor: "iconbeijingse"
+    foreColor: "iconic_border_color",
+    backColor: "iconic_format_color_fill"
 };
 
 export { IconMap };

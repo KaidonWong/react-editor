@@ -1,26 +1,7 @@
 import React, { Component } from "react";
 import { EditorContext } from "../../context";
-import {IconMap} from "./IconMap";
+import { IconMap } from "../../../util/IconMap";
 import "./itemwithstatus.scss";
-
-// activeConfig: {
-//     bold: false,
-//     italic: false,
-//     underline: false,
-//     strikeThrough: false,
-//     justifyLeft: false,
-//     justifyRight: false,
-//     justifyCenter: false,
-//     insertOrderedList: false,
-//     insertUnorderedList: false,
-
-//     //outdent   indent  没有状态
-
-//     fontName: "Arial",
-//     fontSize: 5, //1-7
-//     foreColor: "#aaa",
-//     backColor: "#aaa"
-// }
 
 class ItemWithStatus extends Component {
     constructor(props) {

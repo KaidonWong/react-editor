@@ -12,7 +12,7 @@ const cmdWithStatus = [
     "outdent"
 ];
 
-const cmdWithList = ["fontName", "fontSize"];
+const cmdWithList = ["fontname", "fontsize"];
 
 const cmdWithColor = ["foreColor", "backColor"];
 

@@ -6,24 +6,17 @@ import "./dropdown.scss";
 class Dropdown extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            value: this.props.configArr[0].val
-        };
-    }
-
-    handleChange=(e)=>{
-        this.setState({value:e.target.value})
     }
 
     render() {
-        const { configArr } = this.props;
+        const { configArr, currentVal,handleChange } = this.props;
         let options = configArr.map(item => (
             <option key={item.val} value={item.val}>
                 {item.name}
             </option>
         ));
         return (
-            <select className="dropdown-react" value={this.state.value} onChange={this.handleChange}>
+            <select className="dropdown-react" value={currentVal} onChange={handleChange}>
                 {options}
             </select>
         );
