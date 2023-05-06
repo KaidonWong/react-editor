@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "devDependencies": {
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
